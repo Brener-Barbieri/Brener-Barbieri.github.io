@@ -45,6 +45,10 @@ p {
   text-transform: uppercase;
 }
 
+.menu a:hover {
+  outline: 0.1rem solid #e21;
+}
+
 .conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
