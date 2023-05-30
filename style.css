@@ -1,0 +1,115 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifs;
+  margin: 0rem;
+  margin-top: 3.75rem;
+  background: #f7f7f7;
+  display: grid;
+  gap: 3.75rem;
+  justify-items: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu a {
+  background: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 62.5rem;
+}
+
+.introducao {
+  background: #fff;
+  padding: 2.5rem;
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 1.25rem;
+  align-content: center;
+  justify-items: end;
+}
+
+.detalhe {
+  width: 3.75rem;
+  height: 0.25rem;
+  background: #e21;
+  position: absolute;
+  top: 1rem;
+  right: -1rem;
+}
+
+.botao {
+  background: #e21;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+}
+
+.subtitulo {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 2.5rem;
+  align-self: center;
+  background-image: url("./img/pattern.svg");
+  background-repeat: repeat;
+}
+
+.vantagens {
+  background: #fff;
+  padding: 2.5rem;
+}
+
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.7rem 1.25rem;
+  padding: 1.25rem;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.rodape {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 2.5rem;
+  box-sizing: border-box;
+}
