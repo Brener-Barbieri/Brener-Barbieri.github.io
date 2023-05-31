@@ -110,6 +110,14 @@ p {
   grid-column: 2;
 }
 
+li:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+li:hover {
+  border-left: 0.3rem solid #e21;
+}
+
 .rodape {
   background: #fff;
   width: 100%;
